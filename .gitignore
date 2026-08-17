@@ -1,0 +1,26 @@
+# JetBrains GoLand IDE
+.idea/
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+*/bin/
+
+# Go workspace and test profiles
+go.work
+go.work.sum
+*.coverprofile
+profile.cov
+
+# Local environment variables
+.env
+
+# OS specific files
+.DS_Store
+Thumbs.db
